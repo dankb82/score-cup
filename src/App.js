@@ -1,5 +1,6 @@
 import card from "./joker.svg";
 import "./App.css";
+import GameInfo from "./components/GameInfo";
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
 					Score Keeper
 				</a>
 			</header>
+			<GameInfo />
 		</div>
 	);
 }
